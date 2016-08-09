@@ -120,11 +120,6 @@ app.post('/', function(req, res) {
 
 });
 
-app.get('/view/', function(req, res) {
-
-    res.send('Hello World');
-
-});
-// app.use('/assets', connect.static(__dirname + '/assets', { maxAge: 86400000 }));
+app.use(express.static(path.join(__dirname, 'assets')));
 
 app.listen(3000);

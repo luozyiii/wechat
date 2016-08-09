@@ -1,5 +1,6 @@
 var weixin      = require('weixin-api');  
 var express     = require('express');  
+// var connect     = require('connect');
 var app         = express(); 
 
 // 接入验证
@@ -119,4 +120,11 @@ app.post('/', function(req, res) {
 
 });
 
-app.listen(80);
+app.get('/view/', function(req, res) {
+
+    res.send('Hello World');
+
+});
+// app.use('/assets', connect.static(__dirname + '/assets', { maxAge: 86400000 }));
+
+app.listen(3000);

@@ -1,0 +1,26 @@
+{
+  "name": "wechat",
+  "version": "1.0.0",
+  "description": "wechat测试",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luozyiii/wechat.git"
+  },
+  "keywords": [
+    "wechat"
+  ],
+  "author": "luozhiyi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luozyiii/wechat/issues"
+  },
+  "homepage": "https://github.com/luozyiii/wechat#readme",
+  "dependencies": {
+    "express": "^4.14.0",
+    "weixin-api": "^0.1.7"
+  }
+}

@@ -1,5 +1,7 @@
 # wechat微信公众号测试
 
+npm install 安装相应的npm包(依赖于package.json) 
+
 [使用NodeJS本地开发微信公众号示例][1]
 [1]: http://blog.qqbrowser.cc/node_robot/ "使用NodeJS本地开发微信公众号示例"
 ### 服务器端本地调试  ###

@@ -1,6 +1,5 @@
 var weixin      = require('weixin-api');  
 var express     = require('express');  
-// var connect     = require('connect');
 var app         = express(); 
 
 // 接入验证
@@ -120,6 +119,7 @@ app.post('/', function(req, res) {
 
 });
 
-app.use(express.static(path.join(__dirname, 'assets')));
-
-app.listen(3000);
+//指定监听端口
+var server = app.listen(3000, function() {
+  console.log('open 127.0.0.1:%d', server.address().port);
+});

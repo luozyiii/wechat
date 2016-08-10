@@ -1,0 +1,66 @@
+{
+  "domain": "xxxxxxxx.com",
+  "is_debug": true,
+  "mongodb": {
+    "host": "127.0.0.1",
+    "port": "27017",
+    "db": "node-webot"
+  },
+  "sms": {
+    "host": "127.0.0.1",
+    "port": "5001"
+  },
+  "wx": {
+    "app_id": "wx1f4f1d3a202c2d0f",
+    "app_secret": "fadc8f258dd0c15ea7068e4b065b4a6b",
+    "wx_menu": {
+      "button": [
+        {
+          "name": "推荐办卡",
+          "type": "view",
+          "url": "http://app-dev-android.yidejr.cn/wb/recommend.html"
+        },
+        {
+          "name": "信用卡",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "快速办卡",
+              "url": "http://www.baidu.com"
+            },
+            {
+              "type": "view",
+              "name": "测测额度",
+              "url": "http://app-dev-android.yidejr.cn/wb/limit.html"
+            },
+            {
+              "type": "view",
+              "name": "进度查询",
+              "url": "http://www.baidu.com"
+            }
+          ]
+        },
+        {
+          "name": "我的服务",
+          "sub_button": [
+            {
+              "type": "view",
+              "name": "还款管理",
+              "url": "http://www.baidu.com"
+            },
+            {
+              "type": "view",
+              "name": "帮助中心",
+              "url": "http://www.baidu.com"
+            },
+            {
+              "type": "view",
+              "name": "幸用卡APP",
+              "url": "http://a.app.qq.com/o/simple.jsp?pkgname=com.intely.app"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

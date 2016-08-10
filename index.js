@@ -113,11 +113,21 @@ weixin.eventMsg(function(msg) {
 
 // Start
 app.post('/', function(req, res) {
-
     // loop
     weixin.loop(req, res);
 
 });
+
+//app.js
+app.get('/index', function(req, res) {
+    res.end('hello world');
+});
+
+//静态资源
+app.use('/public/',express.static('public'));
+
+//静态网页
+app.use('/pages/',express.static('views/pages'));
 
 //指定监听端口
 var server = app.listen(3000, function() {

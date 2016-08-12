@@ -26,7 +26,7 @@
             {
               "type": "view",
               "name": "快速办卡",
-              "url": "http://www.baidu.com"
+              "url": "http://app-dev-android.yidejr.cn/wb/index.html"
             },
             {
               "type": "view",
@@ -36,29 +36,14 @@
             {
               "type": "view",
               "name": "进度查询",
-              "url": "http://www.baidu.com"
+              "url": "http://app-dev-android.yidejr.cn/wb/progress.html"
             }
           ]
         },
         {
-          "name": "我的服务",
-          "sub_button": [
-            {
-              "type": "view",
-              "name": "还款管理",
-              "url": "http://www.baidu.com"
-            },
-            {
-              "type": "view",
-              "name": "帮助中心",
-              "url": "http://www.baidu.com"
-            },
-            {
-              "type": "view",
-              "name": "幸用卡APP",
-              "url": "http://a.app.qq.com/o/simple.jsp?pkgname=com.intely.app"
-            }
-          ]
+          "name": "幸用卡APP",
+          "type": "view",
+          "url": "http://a.app.qq.com/o/simple.jsp?pkgname=com.intely.app"
         }
       ]
     }
